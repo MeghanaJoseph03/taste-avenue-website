@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet"/>
+    <title>Taste Avenue</title>
+</head>
+<body>
+    <!-- Navigation Section-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Taste Avenue</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="item1" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="item2" href="#wcuSection">Why Choose Taste Avenue?</a>
+            <a class="nav-link" id="item3" href="#exploreMenuSection">Explore Menu</a>
+            <a class="nav-link" id="item4" href="#deliveryPaymentSection">Delivery & payment</a>
+            <a class="nav-link" id="item5" href="#contactUsSection">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Home Section-->
+    <div class="home-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="home-section-heading mb-3">Authentic Taste Around The World</h1>
+            <p class="home-paragraph mb-3">Fresh ingredients, delicious recipies and unforgettable flavours</p>
+            <button class="explore-menu-button">Explore Menu</button>
+            <button class="order-now-button">Order Now</button>
+        </div>
+    </div>
+
+    <!--why choose us section-->
+    <div class="choose-us-taste-avenue  pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="choose-us-heading">Why Choose Taste Avenue?</h1>
+                    <p class="choose-us-para">We deliver more than food — we create memorable dining experiences.</p>
+                </div>
+
+                <!-- Why Choose Us Section -->
+                <div class="col-12 col-md-4">
+                    <div class="wcu-container p-3 mb-3">
+                        <img class="wcu-container-image" src="Images/fruit.png"/>
+                        <h1 class="wcu-heading">Fresh Ingredients</h1>
+                        <p class="wcu-text">We select fresh vegetables, quality spices and premium ingredients to prepare every dish with great taste.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-container p-3 mb-3">
+                        <img class="wcu-container-image" src="Images/restaurant.png"/>
+                        <h1 class="wcu-heading">Expert Chefs</h1>
+                        <p class="wcu-text">Our experienced chefs create unique recipes by combining traditional cooking methods with modern flavors..</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-container p-3 mb-3">
+                        <img class="wcu-container-image" src="Images/cargo-truck.png"/>
+                        <h1 class="wcu-heading">Fast Delivery</h1>
+                        <p class="wcu-text">Enjoy hot and fresh meals delivered quickly with safe packaging and reliable service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Explore Menu Section-->
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="explore-menu-heading">Explore Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/Biryani.jpg"/>
+                        <h1 class="menu-card-heading">Biryani</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/Noodles.jpg"/>
+                        <h1 class="menu-card-heading">Noodles</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/Pasta.jpg"/>
+                        <h1 class="menu-card-heading">Pasta</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/Burger.jpg"/>
+                        <h1 class="menu-card-heading">Burger</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/salad.jpg"/>
+                        <h1 class="menu-card-heading">Salad</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/Beverages.jpg"/>
+                        <h1 class="menu-card-heading">Beverages</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/Icecream.jpg"/>
+                        <h1 class="menu-card-heading">Ice Cream</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card shadow p-3 mb-3">
+                        <img class="menu-card-image w-100" src="Images/Grilled-chicken.jpg"/>
+                        <h1 class="menu-card-heading">Grilled Chicken</h1>
+                        <a class="menu-card-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Healthy Food Section-->
+    <div class="healthy-food-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div class="text-center">
+              <img src="Images/fresh-ingredients.jpg" class="healthy-food-section-img"/>
+            </div>
+          </div>
+          <div class="col-12 col-md-7">
+            <h1 class="healthy-food-section-heading">Crafted with Fresh Ingredients, Served with Passion</h1>
+            <p class="healthy-food-section-description">Every dish at Taste Avenue is prepared using carefully selected
+                    ingredients to ensure exceptional flavor and quality. Our chefs combine fresh vegetables, premium spices, 
+                    and authentic recipes to create meals that are both satisfying and memorable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Delivery and Payment Section-->
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <div class="text-center">
+              <img src="Images/30-off.jpg" class="delivery-and-payment-section-img"/>
+            </div>
+          </div>
+          <div class="col-12 col-md-7 order-2 order-md-1">
+            <h1 class="delivery-and-payment-section-heading">
+              Fast Delivery & Secure Payments
+            </h1>
+            <p class="delivery-and-payment-section-description">
+                    Enjoy freshly prepared meals delivered straight to your doorstep.
+                    Our quick delivery service ensures your food arrives hot and
+                    delicious. Choose from multiple secure payment options, including
+                    credit cards, debit cards, UPI, and digital wallets for a smooth
+                    and convenient ordering experience.
+            </p>
+            <button class="custom-button">Order Now</button>
+            <div class="mt-3">
+              <img src="Images/visa.png" class="payment-card-img"/>
+              <img src="Images/paypal.png" class="payment-card-img"/>
+              <img src="Images/master-card.png" class="payment-card-img"/>
+              <img src="Images/cash-on-delivery.png" class="payment-card-img"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thank you Section-->
+    <div class="thanking-customers-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+            <h1 class="thanking-customers-section-heading">
+               Thank You for Dining With Us!
+            </h1>
+            <p class="thanking-customers-section-description">
+                Your support means everything to us. Join our loyalty program and enjoy exclusive discounts, birthday rewards, early access
+                to new menu items, and special member-only offers.
+            </p>
+            <div class="d-md-none">
+              <img src="Images/gift.jpg" class="thanking-customers-section-img"/>
+            </div>
+            <div>
+              <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                Get Rewards
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog mt-5">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                        Gift Voucher
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="Images/gift-vocher.jpg" class="w-100"/>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 d-none d-md-block">
+            <img src="Images/gift.jpg" class="thanking-customers-section-img"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="contactUsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">Follow Us</h1>
+          </div>
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container">
+                <img class="icon" src="Images/instagram.png" height="40"/>
+              </div>
+              <div class="follow-us-icon-container">
+                <img class="icon" src="Images/twitter.png" height="40"/>
+              </div>
+              <div class="follow-us-icon-container">
+                <img class="icon" src="Images/facebook.png" height="40"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a class="text-white">Food Avenue</a>
+            <h1 class="footer-section-mail-id">orderfood@foodavenue.com</h1>
+            <p class="footer-section-address">Madhapur, Hyderabad , India.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
