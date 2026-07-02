@@ -1,5 +1,8 @@
 # 🍽️ Taste Avenue - Responsive Restaurant Website
 
+## 🌐 Live Demo
+
+🔗 **Website:** https://meghanajoseph03.github.io/taste-avenue-website/
 ## 📖 Overview
 
 Taste Avenue is a modern, fully responsive restaurant website built using HTML, CSS, Bootstrap 4.5. The website showcases the restaurant's menu, highlights its services, provides delivery and payment information, and allows users to explore the restaurant through an attractive and user-friendly interface.
