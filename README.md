@@ -26,7 +26,6 @@ Taste Avenue is a modern, fully responsive restaurant website built using HTML, 
 - CSS3
 - Bootstrap 4
 - Font Awesome
-- 
 ## 📌 Website Sections
 
 ### 🏠 Home
