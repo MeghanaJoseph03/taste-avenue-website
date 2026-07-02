@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-Taste Avenue is a modern, fully responsive restaurant website built using HTML, CSS, Bootstrap 4, and JavaScript. The website showcases the restaurant's menu, highlights its services, provides delivery and payment information, and allows users to explore the restaurant through an attractive and user-friendly interface.
+Taste Avenue is a modern, fully responsive restaurant website built using HTML, CSS, Bootstrap 4.5. The website showcases the restaurant's menu, highlights its services, provides delivery and payment information, and allows users to explore the restaurant through an attractive and user-friendly interface.
 
 ---
 
@@ -19,55 +19,14 @@ Taste Avenue is a modern, fully responsive restaurant website built using HTML, 
 - Responsive footer
 - Mobile, Tablet, and Desktop compatible
 
----
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - Bootstrap 4
-- JavaScript
-- jQuery
 - Font Awesome
-
----
-
-## 📂 Project Structure
-
-```
-Taste-Avenue/
-│
-├── index.html
-├── style.css
-├── README.md
-│
-└── Images/
-    ├── Biryani.jpg
-    ├── Burger.jpg
-    ├── Pasta.jpg
-    ├── Noodles.jpg
-    ├── Salad.jpg
-    ├── Beverages.jpg
-    ├── Icecream.jpg
-    ├── Grilled-chicken.jpg
-    ├── fruit.png
-    ├── restaurant.png
-    ├── cargo-truck.png
-    ├── fresh-ingredients.jpg
-    ├── 30-off.jpg
-    ├── visa.png
-    ├── paypal.png
-    ├── master-card.png
-    ├── cash-on-delivery.png
-    ├── gift.jpg
-    ├── gift-vocher.jpg
-    ├── instagram.png
-    ├── twitter.png
-    └── facebook.png
-```
-
----
-
+- 
 ## 📌 Website Sections
 
 ### 🏠 Home
@@ -90,31 +49,11 @@ Displays popular food categories including:
 - Ice Cream
 - Grilled Chicken
 
-### 🥗 Fresh Ingredients
-Explains the restaurant's commitment to using premium ingredients and authentic recipes.
-
 ### 🚚 Delivery & Payment
 Provides information about:
 - Fast delivery
 - Secure online payments
 - Multiple payment options
-
-### 🎁 Rewards Section
-Customers can join the rewards program and receive special offers using a Bootstrap modal.
-
-### 📱 Contact Us
-Displays the restaurant's social media platforms:
-- Instagram
-- Twitter
-- Facebook
-
-### 📍 Footer
-Contains:
-- Restaurant Name
-- Email Address
-- Location
-
----
 
 ## 📱 Responsive Design
 
@@ -127,23 +66,6 @@ The website is optimized for:
 
 Bootstrap's responsive grid system ensures a seamless experience across all screen sizes.
 
----
-
-## ▶️ How to Run
-
-1. Download or clone the repository.
-
-```
-git clone <repository-url>
-```
-
-2. Open the project folder.
-
-3. Open `index.html` in any modern web browser.
-
-No additional installation is required.
-
----
 
 ## 🎯 Future Improvements
 
@@ -156,14 +78,8 @@ No additional installation is required.
 - Dark mode
 - Backend integration for orders
 
----
-
 ## 👨‍💻 Author
 
-Developed by **[Your Name]**
+Developed by **Meghana Joseph**
 
----
 
-## 📄 License
-
-This project is created for educational and portfolio purposes.
